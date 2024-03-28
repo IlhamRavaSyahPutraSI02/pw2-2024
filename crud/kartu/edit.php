@@ -50,10 +50,10 @@ if(isset($_POST['update'])) {
         <input type="text" name="nama" value="<?php echo $nama; ?>" required>
         <br>
         <label for="diskon">Diskon:</label>
-        <input type="number" name="diskon" value="<?php echo $harga_beli; ?>" required>
+        <input type="number" name="diskon" value="<?php echo $diskon; ?>" required>
         <br>
         <label for="iuran">iuran:</label>
-        <input type="number" name="iuran" value="<?php echo $harga_jual; ?>" required>
+        <input type="number" name="iuran" value="<?php echo $iuran; ?>" required>
         <br>
         <input type="submit" name="update" value="Update">
     </form>
