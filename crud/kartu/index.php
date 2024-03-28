@@ -37,7 +37,8 @@ $data = $kartu->index();
                 <th>Kode</th>
                 <th>Nama</th>
                 <th>Diskon</th>
-                <th>Iuran</th>
+                <th>Iuran</th> 
+                <th>Aksi</th> 
             </tr>
         </thead>
         <tbody>
